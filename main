@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Videographer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <video autoplay muted loop src="hero-video.mp4"></video>
+        <div class="hero-text">
+            <h1>Freelance Videographer & Editor</h1>
+            <p>Color grading, production, storytelling from Frankfurt.</p>
+        </div>
+    </header>
+    <!-- Add sections below -->
+</body>
+</html>
