@@ -130,7 +130,7 @@ body {
 }
 
 
-.main-content {
+.main-content, .prices-main, .contacts-main {
     position: relative;   /* Brings content above background */
     z-index: 1;
     min-height: 100vh;
@@ -138,6 +138,11 @@ body {
     max-width: 1400px;
     margin: 0 auto;
 }
+
+
+
+
+
 
 
 
