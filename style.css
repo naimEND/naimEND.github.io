@@ -130,11 +130,16 @@ body {
 }
 
 .main-content, .prices-main, .contacts-main {
+    position: relative;
     min-height: 100vh;
     padding: 120px 5% 5%;
     max-width: 1400px;
     margin: 0 auto;
+    z-index: 1;
 }
+
+
+
 
 
 .hero-bio {
