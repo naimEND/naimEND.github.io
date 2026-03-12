@@ -6,6 +6,18 @@
     <title>plekhanov.prod</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    const links = document.querySelectorAll('.header a');
+    
+    links.forEach(link => {
+        if (link.getAttribute('href') === currentPage) {
+            link.classList.add('active');
+        }
+    });
+});
+</script>
 <body>
     <nav class="header">
         <a href="index.html" class="logo">plekhanov.<span>prod</span></a>
