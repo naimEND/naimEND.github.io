@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Niktia</title>
+    <title>Портфолио - plekhanov.prod</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav><!-- Same nav as index.html -->
-    <h1>N<span>iktia</span></h1>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="prices.html">Prices</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <nav class="header">
+        <a href="index.html" class="logo">plekhanov.<span>prod</span></a>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="portfolio.html" class="active">Портфолио</a></li>
+            <li><a href="prices.html">Цены</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
     </nav>
-    <main>
-        <h2>Recent Projects</h2>
-        <div class="gallery">
-            <div class="video-item">
-                <iframe src="https://www.youtube.com/embed/UhFQsiPcRFg?si=Wr3s0mt-6VOzdJg7" frameborder="0" allowfullscreen></iframe>
-                <p>Corporate promo - Color graded</p>
+    
+    <main class="portfolio-main">
+        <section class="portfolio-item text-right">
+            <div class="text-content">
+                <h2>Корпоративный ролик</h2>
+                <p>Съёмка и цветокоррекция для IT-компании. 4K, кинематографический стиль.</p>
             </div>
-            <!-- Add 5-6 more video embeds -->
-        </div>
+            <!-- PASTE YOUR PHOTO HERE -->
+            <div class="image-placeholder" style="background-image: url('YOUR-PHOTO-1.jpg');"></div>
+        </section>
+        
+        <section class="portfolio-item text-left">
+            <div class="image-placeholder" style="background-image: url('YOUR-PHOTO-2.jpg');"></div>
+            <div class="text-content">
+                <h2>Свадебный фильм</h2>
+                <p>Полный монтаж 12-минутного фильма. Эмоциональная цветокоррекция.</p>
+            </div>
+        </section>
     </main>
 </body>
 </html>
