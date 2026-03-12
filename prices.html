@@ -1,25 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prices - Niktia</title>
+    <title>Цены - plekhanov.prod</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav><!-- Same nav --></nav>
-    <main>
-        <h2>Pricing</h2>
-        <div class="pricing">
-            <div class="price-card">
-                <h3>Basic Shoot</h3>
-                <p>€250/hour</p>
+    <nav class="header">
+        <a href="index.html" class="logo">plekhanov.<span>prod</span></a>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="portfolio.html">Портфолио</a></li>
+            <li><a href="prices.html" class="active">Цены</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+    
+    <main class="prices-main fade-in">
+        <h1>Тарифы</h1>
+        <div class="price-grid">
+            <div class="price-card slide-in">
+                <h3>Базовая съёмка</h3>
+                <div class="price">€250/час</div>
                 <ul>
-                    <li>1 camera op</li>
-                    <li>Basic edit</li>
+                    <li>1 оператор</li>
+                    <li>Базовый монтаж</li>
+                    <li>1 камера</li>
                 </ul>
             </div>
-            <!-- Add Wedding, Commercial, Color Grade cards -->
+            <div class="price-card slide-in">
+                <h3>Коммерция</h3>
+                <div class="price">€450/час</div>
+                <ul>
+                    <li>2 оператора</li>
+                    <li>Полный монтаж</li>
+                    <li>Цветокоррекция</li>
+                </ul>
+            </div>
+            <div class="price-card slide-in">
+                <h3>Цветокоррекция</h3>
+                <div class="price">€80/мин</div>
+                <ul>
+                    <li>DaVinci Resolve</li>
+                    <li>Кино-look</li>
+                    <li>3 ревизии</li>
+                </ul>
+            </div>
         </div>
     </main>
 </body>
