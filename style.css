@@ -136,7 +136,7 @@ body {
     position: absolute;
     top: 50%;           /* Perfect vertical center */
     left: 50%;          /* Perfect horizontal center */
-    transform: translate(-50%, -50%);  /* Centers from its own center point */
+    transform: translate(-100%, -100%);  /* Centers from its own center point */
     max-width: 700px;
     text-align: center;
     padding: 3rem 2rem;
